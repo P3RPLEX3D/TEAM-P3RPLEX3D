@@ -1,0 +1,158 @@
+#header {
+    position:relative;
+    background-color:maroon;
+    width:100%;
+    margin:0px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:85px;
+    color:silver;
+    font-family: 'Anton', sans-serif;
+    text-align:center;
+    text-shadow:1px 1px 1px black;
+    padding:0px;
+    top:0px;
+    
+}
+
+
+
+ p   {
+    width:100%;
+    border-radius:0px;
+    background-color:white;
+    color:black;
+    padding:0px;
+    margin:0px;
+     margin-left:auto;
+     margin-right:auto;
+    font-size:15px;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+   
+h2 {
+    
+    
+    background-color:black;
+    color:white;
+    padding:0px;
+    margin:0px;
+    font-size:25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+ .div {
+         background-color:white;
+         color:black;
+         width:100%;
+         padding:0px;
+         font-size:20px;
+         padding:0px;
+         margin:0px;
+         font-weight:normal;
+         text-align:center;
+         font-family: 'Oswald', sans-serif;
+         line-height: 2.0;
+         margin-left:auto;
+         margin-right:auto;
+    
+    
+}
+
+article {
+    
+    
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    margin:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color:white;
+    width:100%;
+}
+
+
+body {
+    position:relative;
+    background-image:url(flag.jpg);
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin:0px;
+    width:100%;
+    
+}
+
+footer {
+    position:relative;
+    color:silver;
+    width:100%;
+    text-align:center;
+    background-color:maroon;
+    border-top:2px double silver;
+    border-bottom:2px double silver;
+    bottom:0px;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    font-size:60px;
+    font-family: 'Anton', sans-serif;
+    text-shadow:5px 2px 2px black;
+    margin-bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+}
+    
+nav {
+    background-color:white;
+    color:black;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline;
+
+   
+    
+} 
+
+
+a {
+    color:white;
+    text-decoration:none;
+}  
+
+
+ul {
+    
+  list-style-type: none;
+  overflow:hidden;
+  background-color:black;
+    margin:0px;
+     width:100%;
+   
+}
+
+
+li a {
+    
+  color: silver;
+    background-color:black;
+    display:inline;
+     margin:10px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+  background-color:maroon;
+   
+    color:white;
+    
+}
+
