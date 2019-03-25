@@ -1,11 +1,11 @@
 #header {
     position:relative;
     background-color:maroon;
-    width:100%;
+    width:auto;
     margin:0px;
     margin-left:auto;
     margin-right:auto;
-    font-size:85px;
+    font-size:80px;
     color:silver;
     font-family: 'Anton', sans-serif;
     text-align:center;
@@ -17,41 +17,73 @@
 
 
 
- p   {
-    width:100%;
-    border-radius:0px;
-    background-color:white;
-    color:black;
-    padding:0px;
+ .p   {
+     position:relative;
+     border:1px solid black;
+    width:60vw;
+    line-height:2.0em;
+    background-color:maroon;
+    color:white;
+    padding:100px;
     margin:0px;
-     margin-left:auto;
-     margin-right:auto;
-    font-size:15px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:25px;
     text-align:center;
     font-family: 'Oswald', sans-serif;
+    
+}
+
+
+#h2 {
+    
+    
+    width:60vw;
+    height:auto;
+    background-color:black;
+    line-height: 2.0em;
+    margin-top:10px;
+    color:white;
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:30px;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    
+    
     
 }
 
    
 h2 {
     
-    
+     width:60vw;
+    height:auto;
     background-color:black;
+    line-height: 2.0em;
+    margin-top:0px;
     color:white;
     padding:0px;
     margin:0px;
-    font-size:25px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:35px;
+    text-align:center;
     font-family: 'Oswald', sans-serif;
 }
 
 
- .div {
-         background-color:white;
+ .div {  
+         
+         background-color:black;
          color:black;
-         width:100%;
-         padding:0px;
+         width:100vw;
+         height:auto;
+         overflow:hidden;
          font-size:20px;
-         padding:0px;
+         padding:10px;
          margin:0px;
          font-weight:normal;
          text-align:center;
@@ -65,94 +97,91 @@ h2 {
 
 article {
     
-    
-    position:relative;
-    margin-left:auto;
-    margin-right:auto;
-    padding:0px;
-    margin:0px;
-    margin-top:0px;
-    margin-bottom:0px;
-    background-color:white;
-    width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        padding:0px;
+        margin:0px;
+        margin-bottom:0px;
+        background-color:;
+        width:100vw;
 }
 
 
 body {
-    position:relative;
-    background-image:url(flag.jpg);
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
-    margin:0px;
-    width:100%;
-    
+        
+        width:100vw;
+        height:auto;
+        background-image:url(flag.jpg);
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-color:aqua;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        margin:0px;
+        margin-bottom:0px;
 }
 
-footer {
-    position:relative;
-    color:silver;
-    width:100%;
-    text-align:center;
+#footer {
+    
+   
     background-color:maroon;
-    border-top:2px double silver;
-    border-bottom:2px double silver;
-    bottom:0px;
-    left:0px;
-    margin:0px;
-    padding:0px;
-    font-size:60px;
+    color:silver;
     font-family: 'Anton', sans-serif;
-    text-shadow:5px 2px 2px black;
-    margin-bottom:0px;
-    margin-left:auto;
-    margin-right:auto;
-    position:relative;
+    font-size:60px;
+    text-align:center;
+    text-shadow:1px 1px 1px black;
+    left:0px;
+    
+    width:100vw;
+        
+        
+        
 }
     
-nav {
-    background-color:white;
-    color:black;
-    margin-left:auto;
-    margin-right:auto;
-    display:inline;
-
    
     
-} 
 
 
 a {
-    color:white;
-    text-decoration:none;
-}  
+        color:white;
+        text-decoration:none;
+        text-align: center;
+        list-style: none;
+}       
 
 
 ul {
-    
-  list-style-type: none;
-  overflow:hidden;
-  background-color:black;
-    margin:0px;
-     width:100%;
+        
+        
+        width:auto;
+        background-color:black;
+        padding:0px;
+        margin:0px;
+        text-align:center;
+        list-style:none;
    
 }
 
 
 li a {
-    
-  color: silver;
-    background-color:black;
-    display:inline;
-     margin:10px;
-    text-decoration: none;
-    
+        text-indent: none;
+        color: white;
+        background-color:black;
+        display:inline;
+        margin:10px;
+        padding:15px;
+        text-decoration: none;
+        text-align:center;
+        width:auto;
+
 }
 
 li a:hover {
   background-color:maroon;
-   
+    width:auto;
     color:white;
     
 }
+
 
