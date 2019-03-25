@@ -32,12 +32,6 @@ header {
 
 /*Navagation menu starts here*/
 
-nav {
-  
-  
-  
-  
-}
 
 ul {
   
@@ -173,7 +167,7 @@ aside {
      text-shadow:2px 3px 2px grey;
     font-size:50px;
     padding:30px;
-    width:91%;
+    width:100;
     
 }
 
@@ -213,8 +207,3 @@ img {
 }
 
 
-
-   
-         
-        
-   
