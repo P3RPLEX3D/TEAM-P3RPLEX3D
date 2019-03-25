@@ -1,187 +1,220 @@
-#header {
-    position:relative;
-    background-color:maroon;
-    width:auto;
-    margin:0px;
-    margin-left:auto;
-    margin-right:auto;
-    font-size:80px;
-    color:silver;
-    font-family: 'Anton', sans-serif;
-    text-align:center;
-    text-shadow:1px 1px 1px black;
-    padding:0px;
-    top:0px;
-    
+#container {
+  text-align:center;
+  padding-left: 0px;
+  padding-right:0px;
+  width:80%;
+  height:auto;
+  background-image:url("https://i.pinimg.com/originals/5a/15/8f/5a158f46d2aefd14d3c7a16f3f4bc72b.jpg");
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  margin-bottom:0px;
+  background-color:black;
+  color:white;
+  
+}
+
+header {
+     color:maroon;
+     background-color:white;
+     text-shadow:2px 5px 3px silver;
+    font-size:50px;
+    padding:30px;
+    width:91%;
+    font-family:Anton;
 }
 
 
 
- .p   {
-     position:relative;
-     border:1px solid black;
-    width:60vw;
-    line-height:2.0em;
-    background-color:maroon;
-    color:white;
-    padding:100px;
-    margin:0px;
-    margin-bottom:10px;
-    margin-left:auto;
-    margin-right:auto;
-    font-size:25px;
-    text-align:center;
-    font-family: 'Oswald', sans-serif;
-    
+
+
+
+
+/*Navagation menu starts here*/
+
+nav {
+  
+  
+  
+  
 }
-
-
-#h2 {
-    
-    
-    width:60vw;
-    height:auto;
-    background-color:black;
-    line-height: 2.0em;
-    margin-top:10px;
-    color:white;
-    padding:10px;
-    margin-left:auto;
-    margin-right:auto;
-    font-size:30px;
-    text-align:center;
-    font-family: 'Oswald', sans-serif;
-    
-    
-    
-}
-
-   
-h2 {
-    
-     width:60vw;
-    height:auto;
-    background-color:black;
-    line-height: 2.0em;
-    margin-top:0px;
-    color:white;
-    padding:0px;
-    margin:0px;
-    margin-left:auto;
-    margin-right:auto;
-    font-size:35px;
-    text-align:center;
-    font-family: 'Oswald', sans-serif;
-}
-
-
- .div {  
-         
-         background-color:black;
-         color:black;
-         width:100vw;
-         height:auto;
-         overflow:hidden;
-         font-size:20px;
-         padding:10px;
-         margin:0px;
-         font-weight:normal;
-         text-align:center;
-         font-family: 'Oswald', sans-serif;
-         line-height: 2.0;
-         margin-left:auto;
-         margin-right:auto;
-    
-    
-}
-
-article {
-    
-        margin-left:auto;
-        margin-right:auto;
-        padding:0px;
-        margin:0px;
-        margin-bottom:0px;
-        background-color:;
-        width:100vw;
-}
-
-
-body {
-        
-        width:100vw;
-        height:auto;
-        background-image:url(http://www.federalflags.com/Shared/Images/Product/3x5ft-Sewn-Nylon-American-Flag/Nylon-American-Flag-closeup.jpg);
-        background-repeat:no-repeat;
-        background-size: cover;
-        background-color:aqua;
-        margin-left:auto;
-        margin-right:auto;
-        text-align: center;
-        margin:0px;
-        margin-bottom:0px;
-}
-
-#footer {
-    
-   
-    background-color:maroon;
-    color:silver;
-    font-family: 'Anton', sans-serif;
-    font-size:60px;
-    text-align:center;
-    text-shadow:1px 1px 1px black;
-    left:0px;
-    
-    width:100vw;
-        
-        
-        
-}
-    
-   
-    
-
-
-a {
-        color:white;
-        text-decoration:none;
-        text-align: center;
-        list-style: none;
-}       
-
 
 ul {
-        
-        
-        width:auto;
-        background-color:black;
-        padding:0px;
-        margin:0px;
-        text-align:center;
-        list-style:none;
-   
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: maroon;
+  border:1px solid;
+  
 }
+
+
+
+li {
+  
+  float: center;
+  padding:14px;
+  
+}
+
 
 
 li a {
-        text-indent: none;
-        color: white;
-        background-color:black;
-        display:inline;
-        margin:10px;
-        padding:15px;
-        text-decoration: none;
-        text-align:center;
-        width:auto;
-
+  display:inline;
+  color: white;
+  text-align: center;
+  padding:14px;
+  text-decoration: none;
+  box-shadow:1px 20px 10px black;
+  border:1px solid;
 }
 
 li a:hover {
+  background-color: white;
+ box-shadow:1px 20px 10px maroon;
+  outline-style:solid;
+  color:maroon;
+  
+  
+}
+/*Navagation ends*/
+
+
+
+
+#article {
+  width:auto;
+  height:100vh;
+  background-color:black;
+  bottom:0px;
+  margin:0px;
+  padding:0px;
+   box-shadow:1px 20px 10px black;
+  }
+
+.section {
+  width:auto;
+  height:100vh;
+  background-color:white;
+  color:black;
+  padding:20px;
+  margin:0px;
+  height:auto;
+  box-shadow:1px 20px 10px black;
+}
+
+
+.div1 {
+  padding:0px;
+  margin:0px;
+  width:50%;
+  height:auto;
+ 
+}
+
+.h2 {
+  
+   box-shadow:1px 20px 10px black;
   background-color:maroon;
-    width:auto;
-    color:white;
+  color:white;
+  border:1px outset silver;
+  margin-left:20px;
+  padding:10px;
+  margin-top:10px;
+  
+  
+}
+
+.p {
+    border-right:2px dashed black;
+  border:1px outset;
+    margin:20px;
+    padding:20px;
+    font-size:18px;
+    margin-bottom:20px;
+    line-height:2.0;
+    font-family:verdana;
+    box-shadow:1px 20px 10px black;
+    height:auto;
+}
+
+#footer {
+  position:fixed;
+  background-color:maroon;
+  width:80%;
+  bottom:0px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+  font-size:20px;
+  font-family: Anton;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow:5px 5px 50px black;
+}
+
+
+aside {
+  width: 50%;
+  float:right;
+  
+  
+  
+}
+
+
+  header:hover{
+    
+    
+     color:black;
+     background-color:white;
+     text-shadow:2px 3px 2px grey;
+    font-size:50px;
+    padding:30px;
+    width:91%;
     
 }
 
 
+
+img:hover {
+  
+  
+  width:250px;
+  float:right;
+  margin-top:25px;
+  margin-right:60px;
+  box-shadow:1px 5px 5px black;
+  padding:10px;
+  
+}
+
+
+img {
+  
+  
+  width:250px;
+  float:right;
+  margin-top:25px;
+  margin-right:50px;
+  box-shadow:1px 10px 10px black;
+  padding:10px;
+  
+}
+
+
+
+   p:hover {
+     outline-style:solid;
+     color:teal;
+    background-color:aqua;
+}
+
+
+
+   
+         
+        
+   
