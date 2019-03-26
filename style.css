@@ -2,15 +2,23 @@
 
 #page-wrap {
   text-align: left;
-  width: 300px;
+  width: 290px;
   margin: 0 auto;
-  background-image:url("https://i.pinimg.com/originals/5a/15/8f/5a158f46d2aefd14d3c7a16f3f4bc72b.jpg");
-  background-repeat:no-repeat;
-  background-size:fill;
+  
 }
 
 
-
+body {
+  
+  background-image:url("https://i.pinimg.com/originals/5a/15/8f/5a158f46d2aefd14d3c7a16f3f4bc72b.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  outline-style:none;
+  background-position:fixed;
+  
+  
+  
+}
 
 container {
   text-align:center;
@@ -35,7 +43,7 @@ header {
      text-shadow:2px 5px 3px silver;
     font-size:50px;
     padding:30px;
-    width:800;
+    
     font-family:Anton;
 }
 
@@ -46,6 +54,21 @@ header {
 
 
 /*Navagation menu starts here*/
+
+
+
+
+#section1 {
+  
+  scroll-behavior:smooth;
+  
+}
+
+
+.nav {
+  
+  
+}
 
 
 ul {
@@ -67,34 +90,40 @@ ul {
 li {
   
   float: center;
-  padding:15px;
-  width:100%;
+  padding:20px;
+  width:300px;
+  margin:1px;
 }
 
 
 
 li a {
-  display:block;
+  display:inline;
   color: white;
   text-align: center;
-  padding:14px;
+  padding:10px;
   text-decoration: none;
-  box-shadow:1px 5px 10px black;
+  box-shadow:2px 2px 2px black;
   border:1px solid;
-   width:240px;
+   width:200px;
 }
 
 li a:hover {
-  background-color: white;
- box-shadow:1px 10px 10px maroon;
-  outline-style:solid;
-  color:maroon;
+  background-color: maroon;
+  border:1px solid white;
+  outline-style:none;
+  color:black;
   
   
 }
 /*Navagation ends*/
 
-
+#locked {
+  top:0px;
+  
+  position:fixed;
+  
+}
 
 
 #article {
@@ -142,9 +171,11 @@ li a:hover {
 }
 
 .p {
+  
     border-right:2px dashed black;
   border:1px outset;
     margin:0px;
+  margin-top:70px;
     padding:20px;
     font-size:18px;
     margin-bottom:20px;
@@ -172,6 +203,12 @@ li a:hover {
   
 }
 
+a {
+  
+  text-decoration:none;
+  color:white;
+  
+}
 
 
   
@@ -183,9 +220,9 @@ li a:hover {
   header:hover{
     
     
-     color:black;
-     background-color:white;
-     text-shadow:2px 3px 2px grey;
+     color:white;
+     background-color:maroon;
+     text-shadow:2px 3px 2px black;
     font-size:50px;
     padding:30px;
     width:800;
@@ -223,9 +260,9 @@ li a:hover {
 
 
    p:hover {
-     outline-style:solid;
-     color:teal;
-    background-color:aqua;
+     outline-style:none;
+     color:white;
+    background-color:maroon;
 }
 
 
