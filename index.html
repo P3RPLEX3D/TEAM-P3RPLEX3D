@@ -1,84 +1,137 @@
-
 <!DOCTYPE html>
-
-<html lang="en">
-
+<html>
 <head>
-	<title>Classi Taxi</title>
-		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Bin</title>
+  
+  <!--CSS begins-->
+  <style>
+    * {
+      box-sizing: border-box;
+      margin:0px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    
+    
+    #header {
+      
+        background-color:#1d1e22;
+        font-family:Helvetica;
+        color:#d4d4dc;
+        font-size:20px;
+        padding:20px;
+        text-align:center;
+      margin:0px;
+    }
+    
+    div {
+      
+      background-color:#1d1e22;
+      color:#d4d4dc;
+      text-align:left;
+      padding:15px;
+      font-family:Helvetica;
+      line-height:1.7; font-size:18px;
+      clear:both;
+    }
+    
+    .img {
+      
+      
+      margin:auto;
+      display:block;
+      width:50%;
+      padding:10px;
+      padding-top:20px;
+      
+    }
+    
+    
+    
+    
+    .head {border-bottom:1px solid grey; text-align:center;clear:both;}
+    
+    
+    .topnav {
+      overflow:hidden;
+      background-color:#49494b;
+    }
+    
+    .topnav a {
+      color:#d4d4dc;
+      float:left;
+      display:block;
+      text-decoration:none;
+      text-align:center;
+      padding: 26px;
+      background-color:#49494b;
+    }
+   
+    a:hover {
+      
+      background-color:#1d1e22;
+      color::#d4d4dc;
+    }
+    
+    
+    
+    
+    @media screen and (max-width:400px){
+      
+      .topnav a, .footer, div{ width:100%;
+       padding:10px; font-size:16px;}
+    }
+    
+    
+    
+    @media screen and (max-width:300px){
+      
+      #header, .head { width:100%;
+       padding:20px; font-size:16px;}
+    }
+    
+    
+    
+    .footer 
+    { padding:10px;
+      text-align:center;
+      background-color:#49494b;
+      clear:both;
+      
+    }
+  </style>
+  <!--CSS ends-->
+  
+  
 </head>
-	
 <body>
-	
-	
-<div class="flag">	
-	
-	<header id="header"><h1 id="banner">CLASSI-TAXI</h1>
-		</header>
-		
-</div>
-
-
-	
-<article>
-	
-<section>
-	
-	
-	<div>
-	
-	
-		<nav class="nav">
-			
-	<a href="#">Home</a>
-	<a href="#" >About</a>
-	<a href="#" >Contact</a>
-	<a href="#" >Call</a>
-			
-        </nav> 
-	
-	
-	</div>
-
-    <div>  
-		<h2>Qualifications for applicants who want to be a part of the Classi Taxi Team:</h2>
-
-		<p>
-			I expect a lot from my employees. But, no more than I expect from myself.
-			If you are interested, please email me classitaxi2015@gmail.com.</p>
-	</div>
-
+  
+  <header id="header"><h1>My header</h1></header>
+  
+  <nav class="topnav">
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+    <a href="#">link</a>
+  </nav>
+  
+  <div >
+  <img src="http://th01.deviantart.net/fs70/PRE/i/2014/140/9/0/dragon_logo_crescentmoon96_by_benybing-d7j43yn.png" alt="awesome looking dragon" class="img" ></img>
+  </div>
   
   
+  <div><p><h1 class="head">Lorem ipsum</h1> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
   
-<div>
+  <div><p><h1 class="head">Lorem ipsum</h1> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
 
-  
-	 <h2>Best Taxi service in Mcalester.</h2>
-	
-		<p>
-		Clean cars, friendly staff, and reasonable prices. We will take you to any place a taxi can drive you to, in mcalester or beyond, in a reasonable amount of time, and at a fair price. If you want a trustworthy, reliable transportation service, there really is but one real choice. Classi Taxi. Serving Mcalester for 3 years now in the sweltering heat, or the freezing cold, and even in weather that some cant or wont drive in, your Classi Taxi will get you where you need to go.
-		</p>
-	
-	</div>	
-	
-	
-	<div>
-	
-		<footer id="footer">CLASSI-TAXI</footer>
-	
-	
-	</div>
-	
-</section>
-	
-	
-	
-</article>
-
+  <footer class="footer"> &copy; 2019 <em>Jacob Fillpot</em></footer>
 </body>
-
 </html>
