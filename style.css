@@ -6,7 +6,7 @@
 }
 
 body {
-  
+  margin:0px;
   background-color:#efdfb8;
 }
 #header {
@@ -21,8 +21,7 @@ body {
 
 #article {
   
-  margin:10px;
-  border:1px solid maroon;
+  margin:0px;
   background-color:white;
 }
 
@@ -52,7 +51,7 @@ p {
     text-align:left;
     line-height:2em;
     border-bottom:1px solid maroon;
-    padding-bottom:150px;/*remove this line when adding new paragraphs to the html. this is only to fill space.*/
+   
     
 }
 
@@ -87,12 +86,11 @@ nav {
 }
 
 
-     
-
-	a, .link:hover {
+     a, .link:hover {
 		    
 	        
-	 color:red;
+	        background-color:white;
+		    color:maroon;
          padding:10px;
 }  
 
