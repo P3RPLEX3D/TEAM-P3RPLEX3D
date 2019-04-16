@@ -2,16 +2,20 @@
   box-sizing:border-box;
   margin:0px;
   
+  
 }
 
-#header {
+body {
   
+  background-color:#efdfb8;
+}
+#header {
   font-size:1.5em;
   font-family:Manuale;
   margin:10px;
-  border:1px solid maroon;
+  border-bottom:1px solid maroon;
   text-align:center;
-  padding:10px;
+  padding:20px;
   color:maroon;
   
 }
@@ -19,13 +23,15 @@
 #article {
   
   margin:10px;
-  padding:0px;
   border:1px solid maroon;
+  background-color:white;
 }
 
-#section {
-  margin:0px;
-  padding:20px;
+.section {
+  margin:20px;
+  padding:10px;
+  
+  
 }
 
 h4 {
@@ -33,6 +39,7 @@ h4 {
   font-size:2em;
   color:maroon;
   text-align:left;
+  
   
 }
 
@@ -44,5 +51,14 @@ p {
     font-size:1.2em;
     text-align:left;
     line-height:2em;
+    border-bottom:1px solid maroon;
+  
     
 }
+
+#footer {
+      text-align:center;
+      margin:15px;
+      
+}
+
