@@ -12,10 +12,9 @@ body {
 #header {
   font-size:1.5em;
   font-family:Manuale;
-  margin:10px;
-  border-bottom:1px solid maroon;
+  
   text-align:center;
-  padding:20px;
+  padding-top:20px;
   color:maroon;
   
 }
@@ -30,6 +29,7 @@ body {
 .section {
   margin:20px;
   padding:10px;
+	
   
   
 }
@@ -52,7 +52,7 @@ p {
     text-align:left;
     line-height:2em;
     border-bottom:1px solid maroon;
-  
+    padding-bottom:150px;/*remove this line when adding new paragraphs to the html. this is only to fill space.*/
     
 }
 
@@ -61,4 +61,45 @@ p {
       margin:15px;
       
 }
+
+nav {
+	
+	
+	overflow:hidden;
+	text-align:center;
+	padding:0px;
+	background-color:maroon;
+}
+
+.link {
+	
+	display:inline-block;
+	padding:0px;
+	text-decoration:none;
+	color:maroon;
+	font-family:above;
+	font-size:medium;
+	background-color:maroon;
+	width:100px;
+	color:white;
+	padding:10px;
+	
+}
+
+
+     a, .link:hover {
+		    
+	        
+	        background-color:white;
+		    color:maroon;
+         padding:10px;
+}  
+
+a, .link:active {color:white;
+
+}
+
+
+
+
 
