@@ -87,14 +87,13 @@ nav {
 }
 
 
-     /* un-needed hover 
+     
 
 	a, .link:hover {
 		    
 	        
-	        background-color:white;
-		    color:maroon;
-         padding:10px;*/
+	 color:red;
+         padding:10px;
 }  
 
 a, .link:active {color:white;
