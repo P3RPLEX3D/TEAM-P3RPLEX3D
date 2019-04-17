@@ -1,59 +1,174 @@
-<!DOCTYPE html>
+* {
+	
+	box-sizing:border-box;
+	margin:0px;
+	overflow-x:hidden;
+}
 
-<html lang="en">
 
-<head>
-  <title> 9Kingdoms</title>
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
+
+@media only screen and (max-width:400px) {
+	
+	nav .link {
+		
+		display:block;
+		overflow:hidden;
+		padding:auto-flow;
+	}
+}
+
+
+
+h1 {
+	
+	padding:20px;
+	font-size:3em;
+	background-color:black;
+	border-bottom:5px solid;
+}
+
+
+#header {
+  font-size:1.5em;
+  font-family:Manuale;
+  background-color:white;
+  text-align:center;
+  padding:0px;
+  color:#922610;
+	border-bottom:5px solid;
+}
+
+body {
+	
+	background-color:black;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	
+}
+
+
+
+
+#article {
   
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+  margin:0px;
+  
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:black;
+}
 
-<body>
+.section {
+  /*margin:20px;*/
+  padding:20px;
+	background-color:black;
+  text-align:center;
+  color:white;
+	/*box-shadow:1px 5px 10px;*/
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+}
 
-  <article id="article">
-    <header id="header">
-      <h1> 9Kingdoms</h1>
-		<nav>
-		  <a class="link" href="https://open5e.com/index.html">Open5e</a>
-		  <a class="link" href="https://www.dndbeyond.com/">Beyond</a>
-		  <a class="link"href="https://donjon.bin.sh/">Donjon</a>
-	  </nav>
+em {color:red;
+      font-size:14px;
+}
 
-    </header>
-	  
-    <section class="section">
-      <h4>Introduction</h4>
-      
-      <p>
-        This is the <em><strong>Beginning</strong></em> of my webpage. I am calling it <strong id="kingdoms">"9Kingdoms"</strong>because our world is set in a place we created called "The Nine Kingdoms so it really couldnt have been <i>anything</i> else.  
-		 </p>
-		 <p>
-			 Above you will find some links to popular websites that are loaded with info on Dungeons and Dragons.
-		 </p>
-		 <p>
-			 Over time this page will also include bits and pieces of our world, like Popular NPC background stories, Lore discovered in "The 9", and Custom created content that has been revealed for further use later.
-		 </p>
-		 
-		 <section class="h4">
-			<h4 class="h4">
-				Title
-		 </h4>
-		 <p class="h4">
-Chuck doner sirloin shoulder. Cow hamburger ground round leberkas brisket frankfurter tri-tip. Swine landjaeger pastrami, shank beef ribs brisket corned beef burgdoggen pork belly fatback ham hock short loin capicola tongue. Beef sirloin pig turkey ham prosciutto frankfurter biltong landjaeger chuck. Pork loin corned beef pork chop jowl shank. Pork chop bacon ball tip, bresaola hamburger beef sirloin swine ham drumstick brisket capicola leberkas. Salami swine cupim biltong sirloin ground round turkey, ham hock rump strip steak alcatra jerky spare ribs meatball.</p>
-      <h4>
-				Title
-		 </h4>
-<p>Burgdoggen pastrami turkey turducken tail pork loin. Jerky filet mignon alcatra, prosciutto tail hamburger tongue. Filet mignon hamburger shank meatball. Tail pork loin pork turkey strip steak kielbasa spare ribs, cow filet mignon ribeye porchetta beef corned beef swine tenderloin.
-      </p>
-         </section>
-    </section>
+#kingdoms {
+	
+	color:orange;
+}
+ h4 {
+  font-family:Manuale;
+  font-size:2em;
+  color:black;
+  text-align:center;
+   margin-top:50px;
+	 background-color:#922610;
+	 border-radius:5px;
+}
 
-    <footer id="footer"> &copy; Jacob Fillpot 2019</footer>
-  </article>
+.h4 {
+	display:none;
+  font-family:Manuale;
+  font-size:2em;
+  color:black;
+  text-align:center;
+   margin-top:50px;
+	 background-color:#922610;
+	 border-radius:5px;
+}
 
-</body>
+p {  
+	
+    padding:5px;
+    margin:0px;
+    text-align:center;
+    font-family:Manuale;
+    font-size:1.5em;
+    line-height:2em;
+    border-bottom:2px solid #922610;
+    border-radius:1px;
+    
+}
 
-</html>
+
+
+
+
+#footer {
+      text-align:left;
+      margin-left:10px;
+	   background-color:black;
+	   color:grey;
+	   bottom:0px;
+	   width:100%;
+	   font-size:10px;
+	   
+}
+
+nav {
+	
+	
+	overflow:hidden;
+	text-align:center;
+	background-color:black;
+}
+
+ .link {
+	 display:inline-table;
+	text-align:center;
+	 border-radius:5px;
+	padding:25px;
+	 margin:20px;
+	text-decoration:none;
+	color:#922610;
+	font-family:above;
+	font-size:large;
+	 border:2px solid;
+	background-color:black;
+	}
+
+
+
+
+      .link:hover {
+		    
+	        
+	        background-color:black;
+		    color:red;
+         padding:25px;
+}  
+
+ .link:active {color:black;
+	background-color:red;
+	padding:20px;
+	margin:20px;
+
+}
+
+
+
+
+
