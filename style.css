@@ -1,174 +1,177 @@
 * {
-	
-	box-sizing:border-box;
-	margin:0px;
-	overflow-x:hidden;
+  box-sizing: border-box;
+  margin: 0px;
+  
+}
+
+@media only screen and (max-width: 435px) {
+  nav .link {
+    display: block;
+    overflow: hidden;
+    
+  }
 }
 
 
-
-@media only screen and (max-width:400px) {
 	
-	nav .link {
-		
-		display:block;
-		overflow:hidden;
-		padding:auto-flow;
-	}
-}
-
-
 
 h1 {
+	margin:0px;
+  padding:10px;
+  font-size: 2.5em;
+	font-family: 'Roboto', sans-serif;
+  background-color: black;
+	text-shadow:1px 1px 1px white;
+	border:1px dotted blue;
+	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath opacity=".5" d="M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z"/%3E%3Cpath d="M6 5V0H5v5H0v1h5v94h1V6h94V5H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
 	
-	padding:20px;
-	font-size:2.5em;
-	background-color:black;
-	border-bottom:5px solid;
+	animation: mymove 10s infinite;
+	position:relative;
+}
+
+#header {
+  font-size: 1em;
+	font-weight:100;
+  background-color: black;
+  text-align: center;
+  padding: 0px;
+	margin-top:0px;
+  color: black;
+	height:100%;
+	
+
+	
+   
 }
 
 
-#header {
-  font-size:1.5em;
-  font-family:Manuale;
-  background-color:white;
-  text-align:center;
-  padding:0px;
-  color:#922610;
-	border-bottom:5px solid;
+
+@keyframes mymove {
+	0%  {left: 0px;  background-size:30%;display:none;}
+	25% {left: 0px; background-size:30%;}
+	50% {top: 0px; background-size:100%;}
+	75% {top: 0px;background-size:30%; }
+  100% {top: 0px; background-size:30%;}
+	
 }
 
 body {
+  background-color: black;
+  background-size: cover;
 	
-	background-color:black;
-	background-size:cover;
-	background-repeat:no-repeat;
-	height:100vh;
-	
+  
 }
 
-
-
-
 #article {
-  
-  margin:0px;
-  
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-color:black;
+  margin: 0px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+	
 }
 
 .section {
   /*margin:20px;*/
-  padding:20px;
-	background-color:black;
-  text-align:center;
-  color:white;
-	/*box-shadow:1px 5px 10px;*/
-	background-size:cover;
-	background-repeat:no-repeat;
-	
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  
 }
 
-em {color:red;
-      font-size:14px;
+strong {
+	
+	font-family:Roboto;
+	font-weight:400;
+}
+
+em {
+  color: red;
+	font-family:Roboto;
 }
 
 #kingdoms {
+  color: orange;
+}
+h4 {
+  font-family: Roboto;
+  font-size: 1.5;
+  color: #0766ff;
+  text-align: center;
+  margin: 0px;
+  padding:5px;
+  
+	border-top:1px solid #0766ff;
 	
-	color:orange;
-}
- h4 {
-  font-family:Manuale;
-  font-size:2em;
-  color:black;
-  text-align:center;
-   margin-top:50px;
-	 background-color:#922610;
-	 border-radius:5px;
-}
-
-.h4 {
-	display:none;
-  font-family:Manuale;
-  font-size:2em;
-  color:black;
-  text-align:center;
-   margin-top:50px;
-	 background-color:#922610;
-	 border-radius:5px;
-}
-
-p {  
-	
-    padding:5px;
-    margin:0px;
-    text-align:center;
-    font-family:Manuale;
-    font-size:1.5em;
-    line-height:2em;
-    border-bottom:2px solid #922610;
-    border-radius:1px;
-    
 }
 
 
+ 
 
-
+p {
+  padding: 20px;
+  margin:20px 0px 0px 0px;
+  text-align: left;
+  color:silver;
+  font-family: courier;
+  font-size: 1em;
+  line-height: 2em;
+  border-top: 2px inset #0766ff; 
+  border-bottom: 1px inset grey;
+	border-left:1px solid grey;
+  border-radius: 5px;
+	border-right:1px solid silver;
+	font-family:Roboto;
+	font-size:1.2em;
+	font-weight:400;
+  
+}
 
 #footer {
-      text-align:left;
-      margin-left:10px;
-	   background-color:black;
-	   color:grey;
-	   bottom:0px;
-	   width:100%;
-	   font-size:10px;
-	   
+  text-align: left;
+  margin-left: 10px;
+  background-color: black;
+  color: grey;
+  bottom: 0px;
+  
+  font-size: 10px;
 }
 
 nav {
+  overflow: hidden;
+  text-align: center;
 	
-	
-	overflow:hidden;
-	text-align:center;
-	background-color:black;
 }
 
- .link {
-	 display:inline-table;
-	text-align:center;
-	 border-radius:5px;
-	padding:25px;
-	 margin:20px;
+.link {
+  display: inline-grid;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 30px;
+  text-decoration: none;
+  color: #0766ff;
+  font-family: above;
+  font-size: large;
+  border: 1px solid;
+  background-color: black;
+		
+}
+
+.link:hover {
+  background-color: black;
+  color: #0766ff;
+  padding: 10px;
+	margin:30px;
 	text-decoration:none;
-	color:#922610;
-	font-family:above;
-	font-size:large;
-	 border:2px solid;
-	background-color:black;
-	}
-
-
-
-
-      .link:hover {
-		    
-	        
-	        background-color:black;
-		    color:red;
-         padding:25px;
-}  
-
- .link:active {color:black;
-	background-color:red;
-	padding:20px;
-	margin:20px;
-
+	box-shadow: 0px 0px 5px #0766ff;
 }
 
-
-
-
-
+.link:active {
+  color: #0766ff;
+  background-color: black;
+  padding: 10px;
+  margin: 30px;
+  box-shadow: 0px 0px 0px #0766ff;
+}
