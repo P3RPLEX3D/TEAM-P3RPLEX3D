@@ -3,22 +3,21 @@
 	margin: 0px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:600px) {
 	
-	nav a, nav, h1, #header, #section,  {
-		display: inline;
-		width:100%;
-		float: center;
-		margin-left:0px;
-		overflow:hidden;
-		font-size: small;
+	.serenity, nav a, h1 #header, background-image{
+		display:grid-inline;
+		float:center;
+		postition:absolute;
+		padding:0px;
+		margin:0px;
+		
 	}
 }
 
 h1 {
 	
 	width:100%;
-	
 	margin-top:0px;
 	margin-left:0px;
 	padding: 0px;
@@ -27,9 +26,12 @@ h1 {
 	font-size: 60px;
 	font-family: "Love Ya Like A Sister", cursive;
 	background-color: black;
+	border-top:2px solid silver;
 background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath fill-rule="evenodd" d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/%3E%3C/g%3E%3C/svg%3E');
 	color: white;
 	text-align: center;
+	
+	
 }
 
 #header {
@@ -39,8 +41,7 @@ background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/s
 	background-color: black;
 	z-index:6;
 	text-align: center;
-	padding: 0px;
-	margin-top: 10px;
+	margin-top: 0px;
 	margin-left:0px;
 	color: black;
 	border-bottom:1px solid silver;
@@ -67,26 +68,31 @@ background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/s
 
 body {
 	background-color: black;
+	
 }
 
 #article {
 	position: absolute;
 	margin-left: 160px;
-	margin-top: 100px;
+	margin-top: 50px;
 	padding: 0px;
 	background-color: black;
 	top: 0px;
 	right: 0px;
 	z-index:1;
+	
+		
 }
 
 #section {
+	margin:0px;
 	margin-left: 0px;
-	margin-top: 0px;
-	margin-right:5px;
-	background-color: black;
+	margin-top: 10px;
+	margin-right:0px;
+	background-color:black;
 	color: white;
-	border-right:1px solid grey;
+	
+
 }
 
 #intro {
@@ -99,7 +105,7 @@ body {
 	text-align: center;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-top: 5px;
+	margin-top: 20px;
 	padding: 0px;
 	font-family: "Love Ya Like A Sister", cursive;
 }
@@ -110,11 +116,12 @@ body {
 	font-size:1.5em;
 	color:black;
 	background-color:tan;
-	top:20px;
+	top:0px;
 	margin-right:20px;
 	padding:20px;
-	margin-top:20px;
-	border-top:1px solid silver;
+	margin-top:0px;
+	
+		
 }
 
 strong {
@@ -139,6 +146,8 @@ p {
 	line-height: 2em;
 	font-family: "Love Ya Like A Sister", cursive;
 	border-bottom: 1px solid;
+	
+
 }
 
 #footer {
@@ -153,6 +162,7 @@ p {
 
 nav {
 	position: fixed;
+	float:none;
 	width: 160px;
 	height: 100%;
 	background-color: black;
@@ -160,10 +170,13 @@ nav {
 	overflow-x: hidden;
 	top: 75px;
 	left: 0px;
-	border-right:1px solid grey;
+	border-right:2px outset grey;
+	border-top:1px solid grey;
 	padding-top: 0px;
 	
 	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="28" height="49" viewBox="0 0 28 49"%3E%3Cg fill-rule="evenodd"%3E%3Cg id="hexagons" fill="%239C92AC" fill-opacity="0.4" fill-rule="nonzero"%3E%3Cpath d="M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+	
+	
 }
 
 nav a {
@@ -176,6 +189,9 @@ nav a {
 	background-color: black;
 	color: white;
 	text-decoration: none;
+	border-bottom:1px inset grey;
+	
+	
 }
 
 .link:hover {
