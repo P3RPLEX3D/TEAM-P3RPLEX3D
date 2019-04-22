@@ -116,7 +116,7 @@ body {
 	background-color:tan;
 	top:0px;
 
-	padding:150px;
+	padding: 150px 20px 150px 20px;
 	margin-top:6%;
 
 
@@ -133,7 +133,7 @@ em {
 }
 
 .para {
-	padding: 100px;
+	padding: 150px 20px 150px 20px;
 	margin-left: 5%;
 	margin-right:5%;
 	text-align:center;
@@ -141,8 +141,8 @@ em {
     min-width:90%;
 	color: silver;
 	font-family: courier;
-	font-size: 2.2em;
-	line-height: 2em;
+	font-size: 2.0em;
+	line-height: 2.5em;
 	font-family: "Love Ya Like A Sister", cursive;
 	margin-bottom:10px;
 
