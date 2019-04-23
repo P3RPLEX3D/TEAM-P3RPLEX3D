@@ -1,6 +1,6 @@
 html {
     background: #e6e9e9;
-
+    margin:0;
 }
 
 
@@ -19,6 +19,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-align: center;
     margin:0;
     padding:50px;
+    width:auto;
+    max-width:300px;
 }
 
 
@@ -34,7 +36,6 @@ body {
 
 nav {
     display:auto;
-    float:none;
     top:0px;
     left:0px;
     background-color:#222;
