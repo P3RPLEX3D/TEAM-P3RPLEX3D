@@ -1,0 +1,77 @@
+html {
+box-sizing:border-box;
+font-family:'Helvetica';
+
+background-color:#888;
+margin:0px;
+
+}
+
+header{
+
+    text-align: center;
+    font-size:20px;
+    height:10%;
+}
+
+body {
+   margin:0;
+    background-color:rgba(100,100,133, 0.1);
+}
+
+
+
+table {
+ background-color:#222;
+    color:#999;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+caption {
+    background-color:inherit;
+    padding:3%;
+    text-align:center;
+    border-bottom:1px solid #111;
+    font-size:30px;
+}
+th {
+
+    background-color:aliceblue;
+    color:#222;
+    width:15%;
+   font-family:"Helvetia";
+   font-weight:100;
+}
+
+
+tr {
+
+
+
+}
+
+td {
+
+
+    background-color:#999;
+    color:#111;
+    height:100%;
+    padding:10px;
+    text-align: center;
+    padding-top:30px;
+}
+
+
+
+
+tbody {
+    background-color:#222;
+
+}
+
+
+
+
+}
