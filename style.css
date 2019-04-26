@@ -1,268 +1,101 @@
-
-
-#page-wrap {
-  text-align: left;
-  width: 290px;
-  margin: 0 auto;
-  
+html {
+  background-color: #f1f1f1;
+  margin: 0;
+	width:auto;
+	
 }
 
+h1, h2, h3, h4, h5, h6, p {
+	
+	text-align:center;
+	background-color:#EEE;
+	width:auto;
+	border-radius:5px;
+	on-focus:3px solid lightblue;
+}
+
+#header {
+  margin-left: auto;
+	margin-rigth:auto;
+  text-align:center;
+  padding: 5px;
+  color: #095790;
+  border-bottom: 1px solid rgba(114, 126, 167, 0.39);
+  
+}
 
 body {
+  box-sizing: border-box;
+  font-family: "Helvetica";
+  line-height: 1.75;
+  font-weight: 500;
   
-  background-image:url("https://i.pinimg.com/originals/5a/15/8f/5a158f46d2aefd14d3c7a16f3f4bc72b.jpg");
-  background-repeat:no-repeat;
-  background-size:100% 100%;
-  outline-style:none;
-  background-position:fixed;
-  
-  
-  
+	
+	min-width:300px;
 }
 
-container {
-  text-align:center;
-  padding-left: 0px;
-  padding-right:0px;
-  width:800px;
-  height:auto;
-  background-image:url("https://i.pinimg.com/originals/5a/15/8f/5a158f46d2aefd14d3c7a16f3f4bc72b.jpg");
-  margin-left:auto;
-  margin-right:auto;
+.questions {
   margin-top:0px;
-  margin-bottom:0px;
-  background-color:black;
-  color:white;
-  
-  
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+  width:100%;
+  min-height:150px;
+  height: auto;
+  resize: vertical;
+  box-sizing: border-box;
 }
-
-header {
-     color:maroon;
-     background-color:white;
-     text-shadow:2px 5px 3px silver;
-    font-size:50px;
-    padding:30px;
-    
-    font-family:Anton;
-}
-
-
-
-
-
-
-
-/*Navagation menu starts here*/
-
-
-
-
-#section1 {
-  
-  scroll-behavior:smooth;
-  
-}
-
-
-.nav {
-  
-  
-}
-
 
 ul {
-  
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: maroon;
-  border:0px solid;
-  width:300px;
-  
-  
-  
+  box-sizing: border-box;
+  margin: 0%;
+  width:100%;
+	list-style:none;
+	padding:0px;
+}
+
+#li1 #li2 #li3 #li4 {
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-top:20px;
+	width:150px;
 }
 
 
-
-li {
-  
-  float: center;
-  padding:20px;
-  width:300px;
-  margin:1px;
-}
-
-
-
-li a {
-  display:inline;
-  color: white;
-  text-align: center;
-  padding:10px;
-  text-decoration: none;
-  box-shadow:2px 2px 2px black;
-  border:1px solid;
-   width:200px;
-}
-
-li a:hover {
-  background-color: maroon;
-  border:1px solid white;
-  outline-style:none;
-  color:black;
-  
-  
-}
-/*Navagation ends*/
-
-#locked {
-  top:0px;
-  
-  position:fixed;
-  
-}
 
 
 #article {
-  width:300px;
-  height:100%;
-  background-color:black;
-  bottom:0px;
-  margin:0px;
-  padding:0px;
-  margin-top:0px;
-  
-  }
-
-.section {
-  width:100%;
-  height:100%;
-  background-color:white;
-  color:black;
-  padding:0px;
-  margin:0px;
-  height:auto;
-  
-}
-
-
-.div1 {
-  padding:0px;
-  margin:0px;
-  width:50%;
-  height:auto;
-}
-
-.h2 {
-  
-   box-shadow:1px 10px 10px black;
-  background-color:maroon;
-  color:white;
-  width:280px;
-  border:1px outset silver;
-  margin-left:0px;
-  padding:10px;
-  margin-top:10px;
-  
-  
-}
-
-.p {
-  
-    border-right:2px dashed black;
-  border:1px outset;
-    margin:0px;
-  margin-top:70px;
-    padding:20px;
-    font-size:18px;
-    margin-bottom:20px;
-    line-height:2.0;
-    font-family:verdana;
-    box-shadow:1px 0px 10px black;
-    height:auto;
-    width:260px;
-}
-
-#footer {
-  position:fixed;
-  background-color:maroon;
-  width:305px;
-  bottom:0px;
-  margin-bottom:0px;
-  padding-top:0px;
-  padding-bottom:0px;
-  font-size:20px;
-  font-family: Anton;
+	background-color:#095790;
+	box-sizing:border-box;
   margin-left:auto;
-  margin-right:auto;
-  text-align:center;
-  color:white;
-  
-}
-
-a {
-  
-  text-decoration:none;
-  color:white;
-  
-}
-
-
-  
-  
-  
-
-
-
-  header:hover{
-    
-    
-     color:white;
-     background-color:maroon;
-     text-shadow:2px 3px 2px black;
-    font-size:50px;
-    padding:30px;
-    width:800;
-    
+	margin-right:auto;
+	width:auto;
 }
 
 
 
-.img:hover {
-  
-  
-  width:200px;
-  float:;
-  
-  box-shadow:0px 0px 0px black;
-  padding:10px;
-  
+#buttonSave {
+	box-sizing:border-box;
+	background-color:#095790;
+	border-radius:5px;
+	margin-left:40%;
+	margin-right:40%;
+	margin-bottom:10px;
+	width:20%;
+	height:40px;
+	padding:0px;
+	color:#EEE;
 }
 
-
-.img {
-  
-  
-  width:40px;
-  float:right;
-  
-  padding:10px;
-  right:400px;
-  top:60px;
-  position:absolute;
-  border:1px solid;
-  
+@media screen and (max-width:600px) {
+	
+	 .questions  {
+		
+		  
+			
+		
+		
+	}
+	
 }
-
-
-
-   p:hover {
-     outline-style:none;
-     color:white;
-    background-color:maroon;
-}
-
 
