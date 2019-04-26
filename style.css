@@ -1,215 +1,79 @@
-* {
-	box-sizing: border-box;
-	margin: 0px;
+html {
+  background-color: #f1f1f1;
+  margin: 0;
 }
 
 
-h1 {
-	text-align:center;
-	min-width:50px;
-	margin-top:0px;
-	margin-left:0%;
-	margin-right:0%;
-	padding: 0px;
-	top: 0px;
-	left: 0px;
-	font-size: 50px;
-	font-family: "Love Ya Like A Sister", cursive;
-	color: white;
 
-
-
-}
-
-#header {
-
-
-	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath fill-rule="evenodd" d="M0 0h4v4H0V0zm4 4h4v4H4V4z"/%3E%3C/g%3E%3C/svg%3E');
-	background-color: black;
-
-
-
-
-
-
-
-
-}
-
-@keyframes mymove {
-	0% {
-		left: 0px;
-		background-size: 5%;
-	}
-
-	25% {
-		top: 0px;
-		background-size: 4%;
-	}
-
-	50% {
-		top: 0px;
-		background-size: 5%;
-	}
-
-	100% {
-		top: 0px;
-		background-size: 4%;
-	}
+header {
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+  color: #095790;
+  border-bottom: 1px solid rgba(114, 126, 167, 0.39);
+ 
 }
 
 body {
-	background-color:black;
-	background-image: url('data:image/svg+xml,%3Csvg width="42" height="44" viewBox="0 0 42 44" xmlns="http://www.w3.org/2000/svg"%3E%3Cg id="Page-1" fill="none" fill-rule="evenodd"%3E%3Cg id="brick-wall" fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
-
+  box-sizing: border-box;
+  font-family: "Helvetica";
+  line-height: 1.75;
+  font-weight: 500;
+  border: 1px solid rgba(114, 126, 167, 0.39);
 }
 
+.questions {
+  margin:0;
+  width:100%;
+  min-height: 100px;
+  height: auto;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+ul {
+  box-sizing: border-box;
+  margin: 0;
+  width:100%;
+	list-style:none;
+	padding:20px;
+}
+
+#li1 {
+	
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+#li2 {
+	
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+#li3 {
+	
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+#li4 {
+	
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+
 #article {
-
-	margin-left: 0px;
-	margin-top: 0px;
-	padding: 0px;
-	margin:0px;
-	top: 0px;
-	right: 0px;
-
-
-
+	box-sizing:border-box;
+  margin-left:auto;
+	margin-right:auto;
+	width:auto;
 }
 
 #section {
-	margin:0px;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-left:0%;
-	margin-right:0%;
-	margin-bottom:20px;
-	color: white;
-
-}
-
-/*#intro {
-
-	background-color: darkred;
-	color: orange;
-	left: 0px;
-	top: 0px;
-	font-size: 2.5em;
-	text-align: center;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding: 0px;
-	font-family: "Love Ya Like A Sister", cursive;
-}*/
-
-#serenity {
-
-	font-family: 'Bilbo Swash Caps', cursive;
-	font-size:2.5em;
-	text-align:center;
-	width:90%;
-	color:black;
-	margin-left:5%;
-	margin-right:5%;
-	margin-bottom:10%;
-	min-width:50%;
-	background-color:tan;
-	top:0px;
-
-	padding: 50px 20px 50px 20px;
-	margin-top:6%;
-
-
-}
-
-
-
-em {
-	color: red;
-}
-
-#kingdoms {
-	color: orange;
-}
-
-.para {
-	padding: 150px 20px 150px 20px;
-	margin-left: 5%;
-	margin-right:5%;
-	text-align:left;
-	max-width:90%;
-    min-width:90%;
-	color: silver;
-	font-family: courier;
-	font-size: 2.0em;
-	line-height: 2.5em;
-	font-family: "Love Ya Like A Sister", cursive;
-	margin-bottom:10%;
-
-background-color: #000000;
-background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 12 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.16' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-#footer {
-	text-align: left;
-	margin-left: 0px;
-	background-color: black;
-	color: grey;
-	bottom: 0px;
-	clear: both;
-	font-size: 10px;
-	height:20px;
-	padding-left:20px;
-}
-
-nav {
-
-	float:none;
-	width: 50%;
-	min-width:100px;
-	background-color: black;
-	overflow-x: hidden;
-
-	left: 0px;
-
-	padding-top: 0px;
-	margin-left:25%;
-	margin-right:25%;
-	margin-top:3%;
-	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="28" height="49" viewBox="0 0 28 49"%3E%3Cg fill-rule="evenodd"%3E%3Cg id="hexagons" fill="%239C92AC" fill-opacity="0.4" fill-rule="nonzero"%3E%3Cpath d="M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
-
-
-}
-
-nav a {
-	display:block;
-	width:auto;
-	text-align: center;
-	font-family: "Love Ya Like A Sister", cursive;
-	margin-top: 0px;
-
-	padding: 20px;
-	background-color: black;
-	animation: mymove 1s infinite;
-	color: white;
-	text-decoration: none;
-	border-bottom:1px inset grey;
-	border-right:1px outset grey;
-	border-left:1px inset grey;
-}
-
-.link:hover {
-	background-color:#040505;
-	color: grey;
-	padding: 20px;
-	margin: 0px;
-	text-decoration: none;
-}
-
-.link:active {
-	color: white;
-	background-color: black;
-	padding: 20px;
-	margin: 0px;
-
+	max-width:95%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	
 }
