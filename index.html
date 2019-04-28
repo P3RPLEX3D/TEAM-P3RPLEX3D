@@ -2,7 +2,10 @@
     <head>
         <title>Jacob Fillpot</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+
         <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
     </head>
@@ -16,10 +19,32 @@
                     these words, let me say in advance. You were warned.</p>
                 <ul>
                     <li>Who I am</li>
-                    <li>Where I am From</li>
+                    <li>Where I am from</li>
+                    <li>Where I'm going</li>
                 </ul>
                 <p></p>
             </section>
+            <section>
+                <form netlify name="comments-queue" action="/thanks">
+  <input name="path" type="hidden" value="{{ page.url }}">
+  <p>
+    <label for="name">Your name</label>
+    <input type="text" name="name" id="name">
+  </p>
+  <p>
+    <label for="email">Your email</label>
+    <input type="email" name="email" id="email">
+  </p>
+  <p>
+    <label for="comment">Your comment</label>
+    <textarea name="comment" id="comment"></textarea>
+  </p>
+  <p>
+    <button type="submit">Post your comment</button>
+  </p>
+</form>
+            </section>
+
         </article>
     </body>
 </html>
