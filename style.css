@@ -57,6 +57,7 @@ ul {
 	line-height: 2.75;
 	font-size: 1em;
 	color: #222;
+	background-color:#eee;
 
 	text-align: left;
 }
@@ -69,5 +70,5 @@ h1 {
 }
 
 .paraeee {
-	background-color: #eee;
+	background-color: #D3D2D2;
 }
