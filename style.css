@@ -1,10 +1,20 @@
+.links {
+	text-decoration:none;
+	color:#3f7bbf;
+}
+.links:hover {
+	color:rgba(0,200,0, 0.9);
+	
+	
+}
+
 article {
 	margin: 0;
 	box-sizing: border-box;
 }
 
 body {
-	background-color: #111;
+	background-color: #fafafa;
 	box-sizing: border-box;
 	margin: 0;
 	font-family: "Jura", sans-serif;
@@ -20,22 +30,10 @@ body {
 .header {
 	text-align: center;
 	font-size: 2em;
-	margin-top: 0px;
+	margin-top: 30px;
 	color: #666;
-	background-color:#FFFFFF;
 }
-#article {
-	width:60%;
-	border-right:1px solid #eee;
-	border-left:1px solid #eee;
-	margin-left:auto;
-	margin-right:auto;
-}
-@media screen and (max-width:600px){
-	#article {
-		width:100%;
-	}
-}
+
 p {
 	clear: both;
 	margin: 0;
@@ -45,7 +43,6 @@ p {
 	font-size: 1em;
 	text-align: left;
 	box-sizing: border-box;
-	background-color: #fff;
 }
 
 ul {
@@ -56,11 +53,12 @@ ul {
 	height: 150px;
 	line-height: 2.75;
 	font-size: 1em;
+	background-color: #eee;
 	color: #222;
-	background-color:#eee;
-
+	
 	text-align: left;
 }
+
 
 h1 {
 	margin: 0;
@@ -72,3 +70,5 @@ h1 {
 .paraeee {
 	background-color: #eee;
 }
+
+	
