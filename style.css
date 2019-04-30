@@ -23,7 +23,18 @@ body {
 	margin-top: 30px;
 	color: #666;
 }
-
+#article {
+	width:60%;
+	border-right:1px solid #eee;
+	border-left:1px solid #eee;
+	margin-left:auto;
+	margin-right:auto;
+}
+@media screen and (max-width:400px){
+	#article {
+		width:100%;
+	}
+}
 p {
 	clear: both;
 	margin: 0;
