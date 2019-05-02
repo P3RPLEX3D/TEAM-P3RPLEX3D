@@ -80,7 +80,7 @@ html {
 	margin-right:auto;
 	position:relative;
 	
-	transistion-delay:1.2;
+	transform:rotateX();
 }
 footer{
 	
