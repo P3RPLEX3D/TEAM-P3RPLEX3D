@@ -12,5 +12,5 @@ function closeNav() {
 function d20() {
 	document.getElementById("header").innerHTML =
 Math.floor(Math.random() * 20 + 1);
-	elt.setAttribute("style", "font-size:16;");
+	
 }
