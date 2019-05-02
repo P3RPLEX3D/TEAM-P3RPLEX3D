@@ -10,7 +10,7 @@ function closeNav() {
 
 
 function d20() {
-	document.getElementById("demo").innerHTML =
+	document.getElementById("header").innerHTML =
 Math.floor(Math.random() * 20 + 1);
 	
 }
