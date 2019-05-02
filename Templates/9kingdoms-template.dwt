@@ -1,8 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Torkah</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>(title-here)</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="script.js"></script>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,23 +18,20 @@
 	<link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
-	
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
 </head>
 
 <body>
 	<article id="article">
 		<header id="header">
-		  <h1><a href="index.html" target="_blank">9kingdoms RPG</a></h1>
+			<h1>9kingdoms RPG</h1>
 		</header>
-		<img src="https://github.com/fillpot30/TEAM-P3RPLEX3D/blob/Master_Development/d20x300.png?raw=true" alt="A twenty sided Dice">
-		<section class="section-a">
-		<h2 class="header">Torkah</h2>
-			<p><strong>Torkah</strong> by Takari definition, means literally, <b>"Home".</b> It is a land with the most fertile soil, the tallest mountians and by far the most dangerous natives... by far.</p>
-		</section>
-		<section class="section-a">
-<h2 class="header">Ragna Wildhammer</h2>
-			
-	</section>
-	</article>
-</body>
+		<img src="https://github.com/fillpot30/TEAM-P3RPLEX3D/blob/Master_Development/d20x300.png?raw=true" alt="A twenty sided Dice" width="100" height="100">
+		<section>
+		<header class="header"><h2>-Introduction-</h2></header>
+			<p><strong>Strong sounding intro words</strong> Words words words <a </p>
+		</section>	
+</article>
+	</body>
 </html>

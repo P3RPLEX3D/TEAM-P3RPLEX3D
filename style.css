@@ -7,7 +7,7 @@ article {
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #fff;
 	box-sizing: border-box;
 	margin: 0;
 	font-family: "Jura", sans-serif;
@@ -19,21 +19,34 @@ body {
 	text-align: center;
 	color: #666;
 	background-color: #eee;
-	
-	
+	text-decoration:none;
 	font-size: 2em;
 	margin: 0;
+	padding: 20px;
 }
 
+#header a {
+	text-decoration:none;
+	color:#666;
+}
 
-.header {
-	text-align: center;
-	font-size: 2em;
+.header-a {
+	text-align:left;
+	font-size: 1.8em;
 	margin-top: 20px;
 	margin-bottom:0px;
 	color: #666;
 	background-color:#FFFFFF;
 }
+.header-b {
+	text-align:left;
+	font-size: 1.8em;
+	margin-top: 20px;
+	margin-bottom:0px;
+	color: #666;
+	background-color:#eee;
+}
+
 #article {
 	width:80%;
 	border-right:1px solid #eee;
@@ -49,13 +62,12 @@ body {
 p {
 	clear: both;
 	margin: 0;
-	padding: 20px;
+	padding-left:20px;
+	padding-right:20px;
 	line-height: 1.75;
 	width: 100%;
-	font-size: 1.1em;
 	text-align: left;
 	box-sizing: border-box;
-	background-color: #fff;
 	
 }
 
@@ -77,7 +89,7 @@ h1 {
 	margin:0;
 	text-align: right;
 	color: #666;
-	padding: 20px;
+	padding: 0px;
 }
 
 h2 {
@@ -89,7 +101,12 @@ h2 {
 	padding: 20px;
 }
 
-.paraeee {
+.par-a {
+	background-color: #fff;
+	font-size:1.1em;
+}
+
+.par-b {
 	background-color: #eee;
 	font-size:1.1em;
 }
@@ -115,4 +132,8 @@ img {
 	position:absolute;
 	opacity:0.05;
 	z-index:1;
+}
+.section-a {
+	background-color:#eee;
+	color:#222;
 }
