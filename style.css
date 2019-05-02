@@ -191,6 +191,7 @@ h1 {
 	text-align: right;
 	color: #666;
 	padding: 0px;
+	border-bottom:1px solid #aaa;
 }
 
 h2 {
@@ -227,8 +228,9 @@ h2 {
 
 img {
 	display:inline;
-	width:80px;
+	width:40px;
 	left:0;
+	padding:10px;
 	top:0px;
 	position:relative;
 	font-size:2em;
