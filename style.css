@@ -24,16 +24,17 @@ body {
 	margin: 0;
 	padding: 10px;
 }
-nav {
+.nav {
 	text-align:left;
 }
-nav a {
-	
+.nav a {
+	background-color:#eee;
 	padding:5px;
 }
-nav a:hover {
+.nav a:hover {
 	background-color:#eee;
-	color:#eee;
+	color:#AAAAAA;
+	padding:5px;
 }
 
 #header a {
