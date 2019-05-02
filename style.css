@@ -216,9 +216,11 @@ h2 {
 }
 
 img {
-	width:10%;
+	width:50%;
 	left:0;
-	bottom:0;
+	top:0px;
+	position:relative;
+	transition: 0.3s;
 }
 .section-a {
 	background-color:#eee;
