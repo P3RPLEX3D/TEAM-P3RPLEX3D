@@ -217,13 +217,8 @@ h2 {
 
 img {
 	width:10%;
-	top:10%;
-	left:10px;
-	margin-left:auto;
-	margin-right:auto;
-	position:absolute;
-	
-	z-index:1;
+	left:0;
+	bottom:0;
 }
 .section-a {
 	background-color:#eee;
