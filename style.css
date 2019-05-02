@@ -226,7 +226,8 @@ h2 {
 }
 
 img {
-	width:50%;
+	display:inline;
+	width:80px;
 	left:0;
 	top:0px;
 	position:relative;
