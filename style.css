@@ -1,3 +1,7 @@
+html {
+	transition: 0.8s;
+}
+
 /*menu css begins*/
 
 .sidenav {
@@ -220,7 +224,7 @@ img {
 	left:0;
 	top:0px;
 	position:relative;
-	transition: 0.3s;
+	
 }
 .section-a {
 	background-color:#eee;
