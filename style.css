@@ -1,5 +1,5 @@
 html {
-	transition: 0.8s;
+	
 }
 
 /*menu css begins*/
@@ -224,7 +224,7 @@ img {
 	left:0;
 	top:0px;
 	position:relative;
-	
+	font-size:2em;
 }
 .section-a {
 	background-color:#eee;
