@@ -28,22 +28,29 @@
 
 .sidenav .closebtn {
   position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  bottom: 50px;
+  left: 180px;
+  font-size: 50px;
+  margin-left: 0px;
+	color:red;
 }
 
 #main {
-  transition: margin-left .5s;  
+  transition:margin-left .5s;  
   padding: 16px;
+	margin:5px;
+	margin-left:auto;
+	margin-right:auto;
+	left:45%;
+	overflow:none;
 	position:absolute;
 	
 }
-span div {
+ div {
 	width:35px;
 	margin-left:auto;
 	margin-right:auto;
+	
 }
 
 @media screen and (max-height: 450px) {
