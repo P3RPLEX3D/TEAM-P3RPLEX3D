@@ -2,7 +2,9 @@ html {
 	scroll-behavior: smooth;
 	
 }
-
+#construction {
+	text-align:left;
+}
 
 /*menu css begins*/
 
