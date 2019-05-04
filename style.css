@@ -190,6 +190,10 @@ ul {
 	text-align: left;
 }
 
+i {
+	font-weight:700;
+}
+
 h1 {
 	margin:0;
 	text-align: right;
