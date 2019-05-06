@@ -1,5 +1,5 @@
 html {
-	scroll-behavior: smooth;
+	background-color:#fff;
 	
 }
 #construction {
@@ -75,7 +75,7 @@ html {
 		width:35px;
 	}
 }
-#d20 {
+.d20 {
 	color:black;
 	font-size:3em;
 	text-align: center;
@@ -90,11 +90,12 @@ footer{
 article {
 	margin: 0;
 	box-sizing: border-box;
+	background-color:#eee;
 }
 
 
 body {
-    background-color: #fff;
+    background-color: #eee;
 	box-sizing: border-box;
 	margin: 0;
 	font-family: "Jura", sans-serif;
@@ -127,10 +128,12 @@ body {
 #header a {
 	text-decoration:none;
 	color:#666;
+	background-color: #eee;
 }
 .header {
 	text-align:center;
 	color:#666;
+	background-color:#eee;
 	font-size:1.3em;
 	margin:20px;
 }
@@ -141,7 +144,7 @@ body {
 	margin-top: 20px;
 	margin-bottom:0px;
 	color: #666;
-	background-color:#FFFFFF;
+	background-color:#eee;
 }
 .header-b {
 	text-align:left;
@@ -173,8 +176,11 @@ p {
 	width: 100%;
 	text-align: left;
 	box-sizing: border-box;
+	background-color:#eee;
 	
 }
+
+
 
 ul {
 	clear: both;
@@ -212,8 +218,10 @@ h2 {
 }
 
 .par-a {
-	background-color: #fff;
+	background-color: #eee;
 	font-size:1.1em;
+	border:1px solid #666;
+
 }
 
 .par-b {
