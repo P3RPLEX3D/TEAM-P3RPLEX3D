@@ -1,73 +1,15 @@
 html {
-	background-color:#fff;
-	
+	background-color:#333;
+	margin:0;
+	max-width:800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #construction {
 	text-align:left;
 }
 
-/*menu css begins*/
 
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #EEEEEE;
-	border-right:px solid #aaa;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  left:150px;
-  font-size: 50px;
-  margin-left: 0px;
-	color:maroon;
-}
-
-#main {
-  transition:margin-left .5s;  
-  padding: 16px;
-	margin:5px;
-	margin-left:auto;
-	margin-right:auto;
-	overflow:hidden;
-	position:absolute;
-	
-}
- div {
-	width:35px;
-	margin-left:auto;
-	margin-right:auto;
-	
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
-/*menu css ends*/
 
 @media screen and (max-width:400px) {
 	div {
@@ -100,6 +42,7 @@ body {
 	margin: 0;
 	font-family: "Jura", sans-serif;
 	height:100vh;
+	
 }
 
 
@@ -179,7 +122,6 @@ p {
 	background-color:#eee;
 	
 }
-
 
 
 ul {

@@ -10,6 +10,9 @@ html {
   background-color: #eee;
   color: #444;
 }
+body {
+	margin:0;
+}
 
 #main-title {
 	text-align:center;
