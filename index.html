@@ -1,58 +1,307 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<title>9kingdoms RPG</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="script.js"></script>
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#2b5797">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Gentium+Basic" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
+	
+	
+	<style>
+		
+		.header {
+			background-color:#222;
+		}
+		
+		body {
+			background-color:#110;
+			line-height:1.75;
+			color:white;
+		}
+		
+		
+		
+		button:focus {
+			outline:none;
+			
+		}
+		
+			#navbar-Brand {
+	font-family: jura;
+}
+
+		 
+		
+		.dropdown-menu {
+			background-color:#333;
+			border:1px solid #555;
+			
+		}
+		.dropdown-item {
+			color:#eee;
+			}
+
+		#paragraph {
+			color:#999;
+			font-size:20px;
+		}
+		
+		
+#head {
+	font-size:36px;
+	font-family:jura;
+	color:#0b69e5;
+	
+}
+		
+		i {
+			color:teal;
+		}
+		
+.text-body {
+font-family: jura;
+	text-align:left;
+padding:0px;
+	font-size:1.1em;
+	line-height:1.5;
+	color:white;
+
+}
+#navbarDropdown1 {
+	color:#eee;
+	text-align: left;
+}
+#navbarDropdown2 {
+	color:blue;
+	text-align: left;
+	color:#eee;
+}
+
+#d20 {
+	font-family: jura;
+	font-size:2em;
+	text-align: center;
+	font-weight: 700;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+.para {
+	font-family: jura;
+font-size: 1.5em;
+	padding:0px;
+	margin-top:50px;
+	color:white;
+}
+
+@media screen and (min-width:1200px) {
+	.text-body {
+		max-width:70%;
+		margin-left:auto;
+		margin-right:auto;
+		transition:.5s;
+		
+	}
+}
+
+		#thanks {
+		text-align:center;
+			width:80%;
+			font-size:1.3em;
+			margin-top:15%;
+			margin-bottom:15%;
+			line-height:1.5em;
+			margin-left:auto;
+			margin-right:auto;
+			color:white;
+		}
+		
+		@media screen and (max-width:400px) {
+	#thanks {
+		width:100%;
+		margin-bottom: 10vh;
+		margin-left:auto;
+		margin-right:auto;
+		transition:.5s;
+	}
+}
+		.nav-link {
+			
+		
+		}
+		#corey {
+			color:#0b69e5;
+			font-size:1.5em;
+			font-weight:500;
+		}
+		
+		nav {
+			background-color:#222;
+		}
+	</style>
 </head>
 
-<body>
-	<article id="article">
-		<header class="header">
-			<h1>9kingdoms RPG</h1>
-			<audio src="${ song.url }" id="audio"></audio>
-<i class="glyphicon glyphicon-play-circle b-play" id="play" onclick="play()"></i>
+<body class="mb-0 p-0">
 
-			<img src="d20.png" alt="20 sided dice" width="856" onclick="d20()"/>
-			<img src="d12.png" alt="12 sided dice" width="100" onclick="d12()"/>
-			<img src="d8.png" alt="8 sided dice" width="200" onclick="d8()"/>
-			<img src="d6.png" alt="6 sided dice" width="200" onclick="d6()"/>
-			<img src="d4.png" alt="4 sided dice" width="563" onclick="d4()"/>
-			<i>There is no "d10"...Logan strikes again.</i>
+	<nav class="navbar navbar-expand-lg navbar-dark border-0 border-secondary fixed-bottom">
+  <a class="navbar-brand text-primary" id="navbar-Brand" href="#">The Answer Is In The Question</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+							<a class="nav-link" href="grid.html" target="_blank">Grid<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-left" href="#"></a>
+      </li>
+      <li class="nav-item dropup">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Additional Resources
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="">
+								
+											<a class="dropdown-item" href="https://www.dndbeyond.com/" target="_blank"><b>D&D Beyond</b></a>
+									<a class="dropdown-item" href="https://donjon.bin.sh/" target="_blank"><b>DonJon</b></a>
+										<a class="dropdown-item" href="https://orcpub2.com/" target="_blank"><b>OrcPub</b></a>
+									</div>
+									<div>
+										<a class="dropdown-item" href="https://open5e.com/" target="_blank"><b>Open5e</b></a>
+									<a class="dropdown-item" href="https://www.d20pfsrd.com" target="_blank"><b>Pathfinder SRD</b></a>
+									<a class="dropdown-item" href="http://www.d20resources.com/modern.d20.srd/" target="_blank"><b>D20 Modern SRD</b></a>
+									</div>
+									<div>
+									<a class="dropdown-item" href="http://dnd.wizards.com/" target="_blank"><b>Dungeons and Dragons Official Webpage</b></a>
+									<a class="dropdown-item" href="https://palladiumbooks.com/" target="_blank"><b>Rift's Official Webpage</b></a>
+									<a class="dropdown-item" href="https://paizo.com/pathfinder" target="_blank"><b>Pathfinder Official Webpage</b></a>
+									</div>
+									
+          <div class=""></div>
+          <a class="dropdown-item "  href="#">Back</a>
+        </div>
+      </li>
+					<!--New Dropdown-->
+					
+					<li class=" nav-item dropup">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Dice
+        </a>
+        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick="d20()" href="#"><b>D-20</b></a>
+									<a class="dropdown-item" onclick="d12()" href="#"><b>D-12</b></a>
+									<a class="dropdown-item" onclick="d10()" href="#"><b>D-10</b></a>
+									<a class="dropdown-item" onclick="d8()" href="#"><b>D-8</b></a>
+									<a class="dropdown-item" onclick="d6()" href="#"><b>D-6</b></a>
+									<a class="dropdown-item" onclick="d4()" href="#"><b>D-4</b></a>
+          <div class=""></div>
+          <a class="dropdown-item" href="#">Back</a>
+									</div>
+     
+					
+					
+					<!--End Dropdown-->
+					
+					
+					
+					
+					
+					
+					
+     <!-- <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <!--<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </div>
+</nav>
+
+	</div>
+
+	<div class="header p-3 mb-0">
+		<h1 id="head" class="text-right text-primary">9kingdoms</h1>
+	</div>
+
+	<article class="container-fluid">
+
+		<header>
+
 		</header>
-		<header id="d20"></header>
-	<section id="section-title">
-		<header class="header-a"><h2 class="header">Introduction</h2></header>
-		<p class="par-a"><strong>9kingdoms RPG</strong> is a tabletop roleplaying game inspired by the vastly popular roleplaying games "Dungeons and Dragons" by <a class="links" href="https://company.wizards.com/" target="_blank">wizards of the coast</a> and "Rift's RPG" by <a id="rifts" class="links" href="https://palladiumbooks.com/" target="blank">Palladium Books</a>. Having spent more than 2 decades playing the roleplaying game genre style of gaming, I have come to greatly respect and admire these type of games and have decided that its time that I put my own spin on the ol d20 and create my own table top game for others to enjoy.&nbsp;</p>
-	</section>
-	  <footer>
-	<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	<a href="index.html">Home</a>
-  <a href="Construction.html">Minos</a>
-  <a href="Torkah.html">Torkah</a>
-  <a href="Construction.html">Alderon</a>
-	<a href="Construction.html">Mirodahl</a>
-</div>
+		<div id="d20"></div>
+		<section>
+			<div id="d20"></div>
+						<div id="thanks">
+							<h5><b id="head">Welcome</b></h5> 
+				<p id="paragraph">
+				 This website is dedicated to the gaming group that I have come to know and admire over the years. Its purpose is to provide others with digital means to play games like Dungeons & Dragons, Rifts, and Pathfinder. Special thanks to <i>Jodi Fillpot, Logan Reeder, Hunter Napier, Danielle Perry, Tommy Morrison III, and Corey Roberts.</i><br>
+				<i><b id="corey">Yes... even Corey</b></i></p>
+			</div>
+			<!--<div class=" text-body">
+				<h5 class="para text-center">Torkah</h5>
+			<p class="text-dark"> <b>Torkah</b> by Takari definition, means literally, "Home". It is a land with the most fertile soil, the tallest mountians and by far the most dangerous natives... by far.</p>
+</div>-->
+			
+			</div>
+			<br>
+			
+		</section>
+	</article>
+	<footer class="fixed-bottom p-0  shadow-lg">
 
-<div id="main">
-  
-  <span class="div" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
-	</span>
-</div>
-			</footer>
-		</article>
-	</body>
+
+	</footer>
+</body>
+
+<script>
+
+function d20() {
+	x = "On the d20 your roll is "
+	document.getElementById("d20").innerHTML = x +
+Math.floor(Math.random() * 20 + 1);
+	
+}
+
+function d12() {
+	x = "On the d12 your roll is "
+	document.getElementById("d20").innerHTML = x +
+Math.floor(Math.random() * 12 + 1);
+	
+}
+function d10() {
+	x = "On the d10 your roll is "
+	document.getElementById("d20").innerHTML = x +
+Math.floor(Math.random() * 10 + 1);
+	
+}
+function d8() {
+		x = "On the d8 your roll is "
+	document.getElementById("d20").innerHTML = x +
+Math.floor(Math.random() * 8 + 1);
+	
+}
+function d6() {
+		x = "On the d6 your roll is "
+	document.getElementById("d20").innerHTML = x +
+Math.floor(Math.random() * 6 + 1);
+	
+}
+function d4() {
+	x = "On the d4 your roll is "
+	document.getElementById("d20").innerHTML = x +
+Math.floor(Math.random() * 4 + 1);
+	
+}
+
+</script>
+
+
 </html>
