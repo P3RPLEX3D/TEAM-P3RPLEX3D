@@ -13,11 +13,11 @@
 	<style>
 		
 		.header {
-			background-color:#222;
+			background-color:#111;
 		}
 		
 		body {
-			background-color:#110;
+			background-color:#111;
 			line-height:150%;
 		color:#eee;
 		}
@@ -36,7 +36,7 @@
 		 
 		
 		.dropdown-menu {
-			background-color:#111;
+			background-color:#222;
 			border:1px solid #555;
 			margin-right:auto;
 			margin-left:auto;
@@ -49,9 +49,9 @@
 
 		#paragraph {
 			color:#aaa;
-			font-size:16px;
+			font-size:20px;
 			text-align:left;
-			max-width:700px;
+			max-width:900px;
 			line-height:1.5em;
 			margin:0;
 			margin-bottom:5%;
@@ -61,7 +61,7 @@
 		
 		
 #head {
-	font-size:30px;
+	font-size:5vw;
 	font-family:jura;
 	color:#0b69e5;
 	margin:0;
@@ -90,29 +90,33 @@ padding:0px;
 #navbarDropdown1 {
 	color:#eee;
 	text-align: left;
+	opacity:0.8;
 }
 #navbarDropdown2 {
 	color:blue;
 	text-align: left;
 	color:#eee;
+	opacity:0.8;
 }
 
 #d20 { /*diceroller*/
-	font-family: jura;
+	
 	padding:1%;
-	font-size:30px;
+	font-size:20px;
+
 	text-align: center;
-	font-weight: 700;
+	font-weight: 500;
 	margin-left:auto;
 	margin-right:auto;
-	position:relative;
+
+	
 }
 
 .para {
 	font-family: jura;
 font-size: 1.5em;
 	padding:0px;
-	margin-top:50px;
+	margin-top:0px;
 	
 }
 
@@ -129,8 +133,8 @@ font-size: 1.5em;
 		#thanks {
 		text-align:center;
 			width:80%;
-			font-size:16px;
-			margin-top:15%;
+			
+			margin-top:5%;
 			margin-bottom:25%;
 			line-height:1.5em;
 			margin-left:auto;
@@ -139,26 +143,31 @@ font-size: 1.5em;
 		}
 		
 		@media screen and (max-width:400px) {
-	#paragraph, #thanks {
+	#paragraph, #thanks, #head {
 		width:100%;
-		margin-bottom: 1vh;
+		font-size:100%;
+		margin-bottom: 5%;
 		margin-left:auto;
 		margin-right:auto;
 		transition:.5s;
 	}
 		}
 		
+		#grid {
+			color:#0b69e5;
+			font-size:20px;
+		}
 		
 		#corey {
 			color:#0b69e5;
 			font-size:16px;
 			padding:1vh;
 			font-family:arial;
-			font-weight:200;
+			
 		}
 		
 		nav {
-			background-color:#222;
+			background-color:#111;
 		}
 	</style>
 </head>
@@ -174,7 +183,7 @@ font-size: 1.5em;
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-							<a class="nav-link" href="https://9kingdoms4us.netlify.com/grid.html" target="_blank">Grid<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="https://9kingdoms4us.netlify.com/grid.html" target="_blank" id="grid">Grid<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-left" href="#"></a>
